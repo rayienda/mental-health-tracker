@@ -25,11 +25,10 @@ SECRET_KEY = 'django-insecure-6yjmk(ks!yz=fslxwypy)sy0wq(&j0l9w2u1vor^i&+szk1mw^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "rayienda-hasmaradana-mentalhealthtracker.pbp.cs.ui.ac.id"]
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
