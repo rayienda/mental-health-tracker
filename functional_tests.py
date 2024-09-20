@@ -20,3 +20,4 @@ class ExampleFunctionalTest(unittest.TestCase):
         self.browser.get("http://localhost:8000")
 
         self.assertEqual("PBD Mental Health Tracker", self.browser.title)
+        
